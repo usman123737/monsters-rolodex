@@ -1,0 +1,13 @@
+.card-container {
+    background: #95dada;
+    border: 1px solid grey;
+    border-radius: 5px;
+    backface-visibility: hidden;
+    cursor: pointer;
+    transition: 0.25s ease-out;
+    height: 100%;
+}
+
+.card-container:hover{
+    transform: scale(1.02);
+}
